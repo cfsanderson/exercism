@@ -13,11 +13,3 @@ Year.prototype.isLeap = function() {
 };
 
 module.exports = Year;
-
-/*
-isLeap is a year that is
-year%4 === 0 but NOT
-year%100 === 0 UNLESS
-year%400 === 0
-
-*/
